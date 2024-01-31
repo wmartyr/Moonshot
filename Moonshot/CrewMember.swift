@@ -6,3 +6,8 @@
 //
 
 import Foundation
+
+struct CrewMember: Codable {
+    let role: String
+    let astronaut: Astronaut
+}
