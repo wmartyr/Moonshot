@@ -20,7 +20,9 @@
 		EF663EE72B662D4F001B145F /* Bundle-Decodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF663EE62B662D4F001B145F /* Bundle-Decodable.swift */; };
 		EF74FFA32B68325D00B19721 /* MissionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF74FFA22B68325D00B19721 /* MissionView.swift */; };
 		EF86009B2B6AE03700D8A306 /* CrewMember.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF86009A2B6AE03700D8A306 /* CrewMember.swift */; };
-		EF86009D2B6AF89200D8A306 /* RectangleDividerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF86009C2B6AF89200D8A306 /* RectangleDividerView.swift */; };
+		EF86009D2B6AF89200D8A306 /* RectangleDivider.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF86009C2B6AF89200D8A306 /* RectangleDivider.swift */; };
+		EF86009F2B6AFF0400D8A306 /* GridLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF86009E2B6AFF0400D8A306 /* GridLayout.swift */; };
+		EF8600A12B6B010200D8A306 /* ListLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF8600A02B6B010200D8A306 /* ListLayout.swift */; };
 		EF9B1E752B66ECFC0008CCA5 /* Mission.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF9B1E742B66ECFC0008CCA5 /* Mission.swift */; };
 /* End PBXBuildFile section */
 
@@ -39,7 +41,9 @@
 		EF663EE62B662D4F001B145F /* Bundle-Decodable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Bundle-Decodable.swift"; sourceTree = "<group>"; };
 		EF74FFA22B68325D00B19721 /* MissionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MissionView.swift; sourceTree = "<group>"; };
 		EF86009A2B6AE03700D8A306 /* CrewMember.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CrewMember.swift; sourceTree = "<group>"; };
-		EF86009C2B6AF89200D8A306 /* RectangleDividerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RectangleDividerView.swift; sourceTree = "<group>"; };
+		EF86009C2B6AF89200D8A306 /* RectangleDivider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RectangleDivider.swift; sourceTree = "<group>"; };
+		EF86009E2B6AFF0400D8A306 /* GridLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridLayout.swift; sourceTree = "<group>"; };
+		EF8600A02B6B010200D8A306 /* ListLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListLayout.swift; sourceTree = "<group>"; };
 		EF9B1E742B66ECFC0008CCA5 /* Mission.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mission.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -79,8 +83,10 @@
 				EF5293592B67999F006C215C /* Color-Theme.swift */,
 				EF3C8B712B65BF8400682619 /* ContentView.swift */,
 				EF74FFA22B68325D00B19721 /* MissionView.swift */,
-				EF86009C2B6AF89200D8A306 /* RectangleDividerView.swift */,
+				EF86009C2B6AF89200D8A306 /* RectangleDivider.swift */,
 				EF43D1272B69CFBA00AACB5E /* CrewView.swift */,
+				EF86009E2B6AFF0400D8A306 /* GridLayout.swift */,
+				EF8600A02B6B010200D8A306 /* ListLayout.swift */,
 				EF06934D2B688457007DC4C1 /* AstronautView.swift */,
 				EF9B1E742B66ECFC0008CCA5 /* Mission.swift */,
 				EF663EE42B662B8F001B145F /* Astronaut.swift */,
@@ -175,6 +181,7 @@
 				EF74FFA32B68325D00B19721 /* MissionView.swift in Sources */,
 				EF43D1282B69CFBA00AACB5E /* CrewView.swift in Sources */,
 				EF663EE52B662B8F001B145F /* Astronaut.swift in Sources */,
+				EF86009F2B6AFF0400D8A306 /* GridLayout.swift in Sources */,
 				EF06934E2B688457007DC4C1 /* AstronautView.swift in Sources */,
 				EF86009B2B6AE03700D8A306 /* CrewMember.swift in Sources */,
 				EF52935A2B67999F006C215C /* Color-Theme.swift in Sources */,
@@ -182,7 +189,8 @@
 				EF3C8B702B65BF8400682619 /* MoonshotApp.swift in Sources */,
 				EF9B1E752B66ECFC0008CCA5 /* Mission.swift in Sources */,
 				EF663EE72B662D4F001B145F /* Bundle-Decodable.swift in Sources */,
-				EF86009D2B6AF89200D8A306 /* RectangleDividerView.swift in Sources */,
+				EF8600A12B6B010200D8A306 /* ListLayout.swift in Sources */,
+				EF86009D2B6AF89200D8A306 /* RectangleDivider.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

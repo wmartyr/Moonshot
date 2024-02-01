@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct RectangleDividerView: View {
+struct RectangleDivider: View {
     var body: some View {
         Rectangle()
             .frame(height: 2)
@@ -17,5 +17,5 @@ struct RectangleDividerView: View {
 }
 
 #Preview {
-    RectangleDividerView()
+    RectangleDivider()
 }
