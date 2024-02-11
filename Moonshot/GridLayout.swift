@@ -11,14 +11,13 @@ struct GridLayout: View {
     let astronauts: [String: Astronaut]
     let missions: [Mission]
     let columns = [GridItem(.adaptive(minimum: 150))]
+    let data = (1...10).map {"Item \($0)"}
     
     var body: some View {
         ScrollView {
             LazyVGrid(columns: columns) {
                 ForEach(missions) { mission in
-                    NavigationLink {
-                        MissionView(mission: mission, astronauts: astronauts)
-                    } label: {
+                    NavigationLink(value: mission) {
                         VStack {
                             Image(mission.image)
                                 .resizable()
@@ -44,6 +43,9 @@ struct GridLayout: View {
                         )
                     }
                 }
+            }
+            .navigationDestination(for: Mission.self) {selection in
+                MissionView(mission: selection, astronauts: astronauts)
             }
             .padding([.horizontal, .bottom])
         }

@@ -15,9 +15,7 @@ struct ListLayout: View {
         ScrollView {
             LazyVStack {
                 ForEach(missions) { mission in
-                    NavigationLink {
-                        MissionView(mission: mission, astronauts: astronauts)
-                    } label: {
+                    NavigationLink(value: mission) {
                         HStack {
                             
                             Image(mission.image)
@@ -45,6 +43,9 @@ struct ListLayout: View {
                         )
                     }
                 }
+            }
+            .navigationDestination(for: Mission.self) {selection in
+                MissionView(mission: selection, astronauts: astronauts)
             }
             .padding()
         }
